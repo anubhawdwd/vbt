@@ -1035,12 +1035,26 @@ search.addEventListener("input", function () {
 const resetbtn = false;
 function openResetModal(){
   const modalcontainer = document.querySelector(".modal-container");
+  const backdrop = document.querySelector(".backdrop");
   modalcontainer.style.display = "block";
+  backdrop.style.display = "block";
 }
 function closeResetModal(){
   const modalcontainer = document.querySelector(".modal-container");
+  const backdrop = document.querySelector(".backdrop");
   modalcontainer.style.display = "none";
+  backdrop.style.display = "none";
 }
+// close modal when click on backdrop
+document.addEventListener("click", (event) => {
+    
+  const backdrop = document.querySelector(".backdrop");
+  if (event.target == backdrop) {
+    closeResetModal()
+  } 
+});
+
+
 function resetLocalStorage() {
     const newData = localStorage.setItem('tableData', JSON.stringify(tableDataAPI));
     let tableData = JSON.parse(localStorage.getItem('tableData')) || tableDataAPI;
@@ -1084,12 +1098,12 @@ function toggleDropdown() {
 function renderTable(data, searchValue = "") {
   cardBody.innerHTML = ""; // Clear the card container
 
-  data.forEach((row, index) => {
+  data.forEach((row) => {
     const card = document.createElement("div");
     card.classList.add("card");
 
     card.innerHTML = `
-        <div class="card-header">
+        <div class="card-header" id="#card-header" >
           <h2>Method: ${highlightMatch(row.vbtSno, searchValue)}</h2>
           <span class="chakra">${highlightMatch(row.tag, searchValue)}</span>
         </div>
@@ -1103,7 +1117,7 @@ function renderTable(data, searchValue = "") {
         </div>
         <div class="card-footer">
           <a href="${row.song}" target="_blank" class="listen-link">Listen to Song</a>
-          <select class="status-dropdown" onchange="updateStatus(this)" data-row="${index}" >
+          <select class="status-${row.status.toLowerCase().replace(/ /g, "-")}" onchange="updateStatus(this)" data-row="${row.vbtSno -1}" >
             <option value="Completed" ${row.status === "Completed" ? "selected" : ""}>Completed</option>
             <option value="In Progress" ${row.status === "In Progress" ? "selected" : ""}>In Progress</option>
             <option value="Not Started Yet" ${row.status === "Not Started Yet" ? "selected" : ""}>Not Started</option>
@@ -1127,18 +1141,20 @@ function highlightMatch(text, term) {
 //**  Function to update the status in local storage
 function updateStatus(selectElement) {
   const status = selectElement.value;
+  // console.log(status);
+  
   const rowIndex = selectElement.getAttribute('data-row');
 
-  // Update the table data array
+  // Update the card data array
   tableData[rowIndex].status = status;
-
-  // Save updated table data to local storage
+  // console.log(rowIndex)
+  // Save updated card data to local storage
   localStorage.setItem('tableData', JSON.stringify(tableData));
-
+  
   // Update row class for styling
-  const row = selectElement.closest('tr');
-  row.className = `status-${status.toLowerCase().replace(/ /g, "-")}`;
+  selectElement.className = `status-${status.toLowerCase().replace(/ /g, "-")}`;
 }
+
 
 //** sortby function
 // Sort table data based on the selected attribute
@@ -1187,32 +1203,16 @@ function sortBy(attribute) {
 }
 
 
-// Attach click event listeners to dropdown items
-// document.querySelectorAll(".dropdown-menu li").forEach((li) => {
-
-//   li.addEventListener("click", () => {
-//     const sortAttribute = li.getAttribute("data-sort");
-
-//     // Map sort attribute to the corresponding key in `tableData`
-//     const sortKeyMap = {
-//       methodno: "vbtSno",
-//       status: "status",
-//     };
-
-//     const attribute = sortKeyMap[sortAttribute];
-//     if (attribute) {
-//       sortBy(attribute);
-//     }
-
-//     // Close the dropdown menu after sorting
-//     const dropdown = document.getElementById("dropdown-menu");
-//     dropdown.style.display = "none";
-//   });
-// });
 
 
 
 function filterBy(chakra){
-  newtable = tableData.filter((item,index)=>item.tag == chakra)
-  renderTable(newtable)
-}
+  if (chakra == 'All') {
+    return renderTable(tableData)
+    }
+    filteredtableData = tableData.filter((item,index)=>item.tag == chakra)
+    renderTable(filteredtableData)
+    // Save updated table data to local storage
+ 
+    // localStorage.setItem('filteredtableData', JSON.stringify(tableData));
+  }
