@@ -23,9 +23,13 @@ header {
   header{
     flex-direction: column;
   } 
-  
 }
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 470px) {
+  .card-body p {
+    font-size: small;
+  } 
+}
+@media only screen and (max-width: 420px) {
   header{
     flex-direction: column;
   } 
@@ -33,9 +37,9 @@ header {
     font-size: 25px;
   } 
   .sort-container {
-    padding: 0 10px;
-}
-.card-header {
+    padding: 0 10px !important; 
+ }
+ .card-header {
   padding: 15px;
   background-color: hsla(0, 0%, 100%, 0.5);
   display: flex;
@@ -43,7 +47,30 @@ header {
   align-items: center;
   row-gap: 10px;
   border-radius: 1rem 1rem 0 0;
+ }
+ .card-body{
+  height: 12rem !important;
 }
+ /* .card-body p{
+  font-size: 14px !important;
+} */
+ .scroll{
+  max-height: 70vh !important;
+ }
+}
+
+@media only screen and (max-width: 380px) {
+  .card-body p{
+    font-size: smaller !important;
+  }
+  .card-body{
+    height: 12.5rem !important;
+  }
+}
+@media only screen and (max-width: 335px) {
+  .card-body{
+    height: 13.25rem !important;
+  }
 }
 
 header h1 {
@@ -285,9 +312,8 @@ header h1 {
   .card-body p {
     padding: 0.5rem;
     margin: 10px 0;
-    font-size: 14px;
+    font-size: 15px;
     color: #222222;
-    font-size: medium;
   }
   
   .card-footer {
