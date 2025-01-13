@@ -4,6 +4,7 @@ let tableDataAPI = [
     method:
       "Radiant one, this experience may dawn between two breaths. After breath comes in (down) and just before turning up (out) – the beneficence.",
     vbtSno: 1,
+    nadi: "Ida",
     raga: "Raag kalikangi",
     song: ["https://youtu.be/XvmuXw13_T8"],
     status: "Not Started Yet",
@@ -13,6 +14,7 @@ let tableDataAPI = [
     method:
       "As breath turns from down to up, and again as breath curves from up to down – through both these turns, realize.",
     vbtSno: 2,
+    nadi: "Sushumna",
     raga: "Raag ratnangi",
     song: ["https://youtu.be/NhQ4AlV_3tw"],
     status: "Not Started Yet",
@@ -22,6 +24,7 @@ let tableDataAPI = [
     method:
       "Or, whenever in-breath and out-breath fuse, at this instant touch the energy-less, energy-filled center.",
     vbtSno: 3,
+    nadi: "Pingala",
     raga: "Raag ganamurthi",
     song: ["https://youtu.be/14UQYKiuoSs"],
     status: "Not Started Yet",
@@ -31,6 +34,7 @@ let tableDataAPI = [
     method:
       "Or, when breath is all out (up) and stopped of itself, or all in (down) and stopped – in such universal pause, one’s small self vanishes. This is difficult only for the impure.",
     vbtSno: 4,
+    nadi: "Ida",
     raga: "Raag vanaspati",
     song: ["https://youtu.be/IYpJVYU4KE0"],
     status: "Not Started Yet",
@@ -40,6 +44,7 @@ let tableDataAPI = [
     method:
       "Attention between eyebrows, let mind be before thought. Let form fill with breath essence to the top of the head and there shower as light.",
     vbtSno: 5,
+    nadi: "Sushumna",
     raga: "Raag manavathi",
     song: ["https://youtu.be/adFbaCAMxNQ"],
     status: "Not Started Yet",
@@ -49,6 +54,7 @@ let tableDataAPI = [
     method:
       "When in worldly activity, keep attentive between the two breaths, and so practicing, in a few days, be born anew.",
     vbtSno: 6,
+    nadi: "Pingala",
     raga: "Raag tanarupi",
     song: ["https://youtu.be/rV6cR4sMA9Q"],
     status: "Not Started Yet",
@@ -58,6 +64,7 @@ let tableDataAPI = [
     method:
       "With intangible breath in center of forehead, as this reaches heart at the moment of sleep, have direction over dreams and over death itself.",
     vbtSno: 7,
+    nadi: "Sushumna",
     raga: "Raga suryakantam",
     song: ["https://youtu.be/qy0WRF0Gz_c"],
     status: "Not Started Yet",
@@ -67,6 +74,7 @@ let tableDataAPI = [
     method:
       "With utmost devotion, center on the two junctions of breath and know the knower.",
     vbtSno: 8,
+    nadi: "Pingala",
     raga: "Raga hatakambari",
     song: ["https://youtu.be/qWy-DDPeeog"],
     status: "Not Started Yet",
@@ -76,6 +84,7 @@ let tableDataAPI = [
     method:
       "Lie down as dead. Enraged in wrath, stay so. Or stare without moving an eyelash. Or suck something and become the sucking.",
     vbtSno: 9,
+    nadi: "Ida",
     raga: "Raga jhanakaradhwani",
     song: ["https://youtu.be/J5eyYleBGlA"],
     status: "Not Started Yet",
@@ -85,6 +94,7 @@ let tableDataAPI = [
     method:
       "While being caressed, sweet princess, enter the caressing as everlasting life.",
     vbtSno: 10,
+    nadi: "Pingala",
     raga: "Raga nata bhairavi",
     song: ["https://youtu.be/R72ILth5eDo"],
     status: "Not Started Yet",
@@ -94,6 +104,7 @@ let tableDataAPI = [
     method:
       "Stop the doors of the senses when feeling the creeping of an ant. Then",
     vbtSno: 11,
+    nadi: "Ida",
     raga: "Raga keervani",
     song: ["https://youtu.be/KrNku93lfzs"],
     status: "Not Started Yet",
@@ -103,6 +114,7 @@ let tableDataAPI = [
     method:
       "When on a bed or a seat, let yourself become weightless, beyond mind.",
     vbtSno: 12,
+    nadi: "Sushumna",
     raga: "Raga Kharaharapriya",
     song: ["https://youtu.be/ggDXE-v9izo"],
     status: "Not Started Yet",
@@ -112,6 +124,7 @@ let tableDataAPI = [
     method:
       "Or imagine the five-colored circles of the peacock tail to be your five senses in illimitable space. Now, let their beauty melt within. Similarly, at any point in space or on a wall – until the point dissolves. Then your wish for another comes true.",
     vbtSno: 13,
+    nadi: "Pingala",
     raga: "Raag Gowri Manohari",
     song: ["https://youtu.be/vNCx-FjUHrE"],
     status: "Not Started Yet",
@@ -121,6 +134,7 @@ let tableDataAPI = [
     method:
       "Place your whole attention in the nerve, delicate as the lotus thread, in the center of your spinal column. In such be transformed.",
     vbtSno: 14,
+    nadi: "Ida",
     raga: "Raga varunapriya",
     song: ["https://youtu.be/KP4jugMsGY8"],
     status: "Not Started Yet",
@@ -130,6 +144,7 @@ let tableDataAPI = [
     method:
       "Closing the seven openings of the head with your hands, a space between your eyes becomes all inclusive.",
     vbtSno: 15,
+    nadi: "Sushumna",
     raga: "Raga mararanjani",
     song: ["https://youtu.be/MMKfn0ahbTk"],
     status: "Not Started Yet",
@@ -139,6 +154,7 @@ let tableDataAPI = [
     method:
       "Blessed one, as senses are absorbed in the heart, reach the center of the lotus.",
     vbtSno: 16,
+    nadi: "Sushumna",
     raga: "Raga Charukeshi",
     song: ["https://youtu.be/5z_sUCM__uc"],
     status: "Not Started Yet",
@@ -147,6 +163,7 @@ let tableDataAPI = [
     tag: "Anahata",
     method: "Unminding mind, keep in the middle – until.",
     vbtSno: 17,
+    nadi: "Pingala",
     raga: "Raga sarasangi",
     song: ["https://youtu.be/jjs8MPe8ohM"],
     status: "Not Started Yet",
@@ -156,6 +173,7 @@ let tableDataAPI = [
     method:
       "Look lovingly on some object. Do not go on to another object. Here in the middle of the object – the blessing.",
     vbtSno: 18,
+    nadi: "Ida",
     raga: "Raga harikambhoji",
     song: ["https://youtu.be/yWmcMsI5dks"],
     status: "Not Started Yet",
@@ -165,6 +183,7 @@ let tableDataAPI = [
     method:
       "Without support for feet or hands, sit only on buttocks. Suddenly, the centering.",
     vbtSno: 19,
+    nadi: "Sushumna",
     raga: "Raga shankarabharanam",
     song: ["https://youtu.be/aJsywTs7Vuk"],
     status: "Not Started Yet",
@@ -174,6 +193,7 @@ let tableDataAPI = [
     method:
       "In a moving vehicle, by rhythmically swaying, experience. Or in a still vehicle, by letting yourself swing in slowing invisible circles.",
     vbtSno: 20,
+    nadi: "Pingala",
     raga: "Raga naganandini",
     song: ["https://youtu.be/nuHklivwkJQ"],
     status: "Not Started Yet",
@@ -183,6 +203,7 @@ let tableDataAPI = [
     method:
       "Pierce some part of your nectar filled form with a pin & gently enter the piercing & attain to inner purity.",
     vbtSno: 21,
+    nadi: "Ida",
     raga: "Raga yagapriya",
     song: ["https://youtu.be/RQqce_L9g68"],
     status: "Not Started Yet",
@@ -192,6 +213,7 @@ let tableDataAPI = [
     method:
       "Let attention be at a place where you are seeing some past happening, and even your form, having lost its present characteristics, is transformed.",
     vbtSno: 22,
+    nadi: "Ida",
     raga: "Raga vardhani",
     song: ["https://youtu.be/vy764BVyjSY"],
     status: "Not Started Yet",
@@ -201,6 +223,7 @@ let tableDataAPI = [
     method:
       "Feel an object before you. Feel the absence of all other objects but this one. Then leaving aside the object-feeling and the absence-feeling, realize.",
     vbtSno: 23,
+    nadi: "Sushumna",
     raga: "Raga gangeyabhushani",
     song: ["https://youtu.be/fbGrOrnVCoU"],
     status: "Not Started Yet",
@@ -210,6 +233,7 @@ let tableDataAPI = [
     method:
       "When a mood against someone or for someone arises, do not place it on the person in question, but remain centered.",
     vbtSno: 24,
+    nadi: "Pingala",
     raga: "Raga vagadheeswari",
     song: ["https://youtu.be/Nwx4SOZu1hI"],
     status: "Not Started Yet",
@@ -218,6 +242,7 @@ let tableDataAPI = [
     tag: "Vishuddhi",
     method: "Just as you have the impulse to do something, stop.",
     vbtSno: 25,
+    nadi: "Pingala",
     raga: "Raga shulini",
     song: ["https://youtu.be/TOtIRcfmRak"],
     status: "Not Started Yet",
@@ -226,6 +251,7 @@ let tableDataAPI = [
     tag: "Vishuddhi",
     method: "When some desire comes, consider it. Then, suddenly, quit it.",
     vbtSno: 26,
+    nadi: "Ida",
     raga: "Raga chalanatta",
     song: ["https://youtu.be/R6ZtTTkXh_M"],
     status: "Not Started Yet",
@@ -235,6 +261,7 @@ let tableDataAPI = [
     method:
       "Roam about until exhausted and then, dropping to the ground, in this dropping be whole.",
     vbtSno: 27,
+    nadi: "Sushumna",
     raga: "Raga salagam",
     song: ["https://youtu.be/T9zrbFBIBRY"],
     status: "Not Started Yet",
@@ -244,6 +271,7 @@ let tableDataAPI = [
     method:
       "Suppose you are gradually being deprived of strength or of knowledge. At the instant of deprivation, transcend.",
     vbtSno: 28,
+    nadi: "Sushumna",
     raga: "Raga jalarnavam",
     song: ["https://youtu.be/tcX2Ac9IE-U"],
     status: "Not Started Yet",
@@ -252,6 +280,7 @@ let tableDataAPI = [
     tag: "Vishuddhi",
     method: "Devotion frees.",
     vbtSno: 29,
+    nadi: "Pingala",
     raga: "Raga jalavarali",
     song: ["https://youtu.be/aPj8nRdJ3B8"],
     status: "Not Started Yet",
@@ -261,6 +290,7 @@ let tableDataAPI = [
     method:
       "Eyes closed, see your inner being in detail. Thus see your true nature.",
     vbtSno: 30,
+    nadi: "Ida",
     raga: "Raag navaneetam",
     song: ["https://youtu.be/K9QoX_x8SsQ"],
     status: "Not Started Yet",
@@ -270,6 +300,7 @@ let tableDataAPI = [
     method:
       "Look upon a bowl without seeing the sides or the material. In a few moments become aware.",
     vbtSno: 31,
+    nadi: "Pingala",
     raga: "Raga pavani",
     song: ["https://youtu.be/hqh4ZvyC0so"],
     status: "Not Started Yet",
@@ -279,6 +310,7 @@ let tableDataAPI = [
     method:
       "See as if for the first time a beauteous person or an ordinary object.",
     vbtSno: 32,
+    nadi: "Ida",
     raga: "Raga raghupriya",
     song: ["https://youtu.be/NVE2qeBYvb4"],
     status: "Not Started Yet",
@@ -287,6 +319,7 @@ let tableDataAPI = [
     tag: "Vishuddhi",
     method: "Simply by looking into the blue sky beyond clouds, the serenity.",
     vbtSno: 33,
+    nadi: "Sushumna",
     raga: "Raga gavambodhi",
     song: ["https://youtu.be/C_Z7RF1S0BA"],
     status: "Not Started Yet",
@@ -296,6 +329,7 @@ let tableDataAPI = [
     method:
       "Listen while the ultimate mystical teaching is imparted. Eyes still, without winking, at once become absolutely free.",
     vbtSno: 34,
+    nadi: "Ida",
     raga: "Raga bhavapriya",
     song: ["https://youtu.be/lEk-_fEtfZs"],
     status: "Not Started Yet",
@@ -305,6 +339,7 @@ let tableDataAPI = [
     method:
       "At the edge of a deep well look steadily into its depths until – the wondrousness.",
     vbtSno: 35,
+    nadi: "Sushumna",
     raga: "",
     song: ["https://youtu.be/Ie6ODMbwSCo?si=XS2IaWG440cxgVBg"],
     status: "Not Started Yet",
@@ -314,6 +349,7 @@ let tableDataAPI = [
     method:
       "Look upon some object, then slowly withdraw your sight from it, then slowly withdraw your thought from it. Then.",
     vbtSno: 36,
+    nadi: "Pingala",
     raga: "",
     song: ["https://youtu.be/Gg6NMU4ivXM?si=WQqcEClIb4bYbLoa"],
     status: "Not Started Yet",
@@ -323,6 +359,7 @@ let tableDataAPI = [
     method:
       "Devi, imagine the Sanskrit letters in these honey-filled foci of awareness, first as letters, then more subtly as sounds, then as most subtle feeling. Then, leaving them aside, be free.",
     vbtSno: 37,
+    nadi: "Ida",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -332,6 +369,7 @@ let tableDataAPI = [
     method:
       "Bathe in the center of sound, as in the continuous sound of a waterfall, or by putting the fingers in the ears, hear the sound of sounds.",
     vbtSno: 38,
+    nadi: "Sushumna",
     raga: "",
     song: ["https://youtu.be/X0daH3e7x7o?si=6T_reM-w95P3lbE9"],
     status: "Not Started Yet",
@@ -341,6 +379,7 @@ let tableDataAPI = [
     method:
       "Intone a sound, as aum, slowly. As sound enters soundfulness, so do you.",
     vbtSno: 39,
+    nadi: "Pingala",
     raga: "",
     song: ["https://youtu.be/_Sbm7DSPddk?si=7-Yip-B4UoBWFkq5"],
     status: "Not Started Yet",
@@ -350,6 +389,7 @@ let tableDataAPI = [
     method:
       "In the beginning and gradual refinement of the sound of any letter, awake.",
     vbtSno: 40,
+    nadi: "Ida",
     raga: "",
     song: ["https://youtu.be/46o1joHp7t0?si=xz_OSGmGc6D_bmBp"],
     status: "Not Started Yet",
@@ -359,6 +399,7 @@ let tableDataAPI = [
     method:
       "While listening to stringed instruments, hear their composite central sound; thus omnipresence.",
     vbtSno: 41,
+    nadi: "Sushumna",
     raga: "",
     song: ["https://youtu.be/RzoO756PvL8?si=NqM_jEz17E_uEaFH"],
     status: "Not Started Yet",
@@ -368,6 +409,7 @@ let tableDataAPI = [
     method:
       "Intone a sound audibly, then less and less audibly as feeling deepens into this silent harmony.",
     vbtSno: 42,
+    nadi: "Pingala",
     raga: "",
     song: ["https://youtu.be/PFxomXeIq4w"],
     status: "Not Started Yet",
@@ -378,6 +420,7 @@ let tableDataAPI = [
     method:
       "With mouth slightly open, keep mind in the middle of the tongue. Or, as breath comes silently in, feel the sound 'hh.'",
     vbtSno: 43,
+    nadi: "Sushumna",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -386,6 +429,7 @@ let tableDataAPI = [
     tag: "Manipura",
     method: "Center on the sound 'aum' without any 'a' or 'm.'",
     vbtSno: 44,
+    nadi: "Pingala",
     raga: "",
     song: ["https://youtu.be/uykOHAhId0Q?si=ZEZ1SsioqHJ6wDjG"],
     status: "Not Started Yet",
@@ -395,6 +439,7 @@ let tableDataAPI = [
     method:
       "Silently intone a word ending in 'ah.' Then in the 'hh,' effortlessly, the spontaneity.",
     vbtSno: 45,
+    nadi: "Ida",
     raga: "Raag senavati",
     song: ["https://youtu.be/m-yl5pjE-aQ"],
     status: "Not Started Yet",
@@ -404,6 +449,7 @@ let tableDataAPI = [
     method:
       "Stopping ears by pressing and rectum by contracting, enter the sound.",
     vbtSno: 46,
+    nadi: "Pingala",
     raga: "Raag todi",
     song: ["https://youtu.be/x1pbtvX89Bk"],
     status: "Not Started Yet",
@@ -412,6 +458,7 @@ let tableDataAPI = [
     tag: "Surya (S’)",
     method: "Enter the sound of your name and, through this sound, all sounds.",
     vbtSno: 47,
+    nadi: "Ida",
     raga: "raga dhenuka",
     song: ["https://youtu.be/NocL9bp4vIY"],
     status: "Not Started Yet",
@@ -421,6 +468,7 @@ let tableDataAPI = [
     method:
       "At the start of sexual union keep attentive on the fire in the beginning, and so continuing, avoid the embers in the end.",
     vbtSno: 48,
+    nadi: "Sushumna",
     raga: "Raga natakpriya",
     song: ["https://youtu.be/d0hQGxbESkE"],
     status: "Not Started Yet",
@@ -430,6 +478,7 @@ let tableDataAPI = [
     method:
       "When in such embrace your senses are shaken as leaves, enter this shaking.",
     vbtSno: 49,
+    nadi: "Pingala",
     raga: "Raga kokilapriya",
     song: ["https://youtu.be/xbV2MrRQ-JY"],
     status: "Not Started Yet",
@@ -438,6 +487,7 @@ let tableDataAPI = [
     tag: "Surya (S’)",
     method: "Even remembering union, without the embrace, the transformation!",
     vbtSno: 50,
+    nadi: "Ida",
     raga: "Raga roopavati",
     song: ["https://youtu.be/QIeB4hS6FLo"],
     status: "Not Started Yet",
@@ -446,6 +496,7 @@ let tableDataAPI = [
     tag: "Surya (S’)",
     method: "On joyously seeing a long absent friend, permeate this joy.",
     vbtSno: 51,
+    nadi: "Sushumna",
     raga: "Raga gayakpriya",
     song: ["https://youtu.be/gGopFU0mynI"],
     status: "Not Started Yet",
@@ -455,6 +506,7 @@ let tableDataAPI = [
     method:
       "When eating or drinking, become the taste of the food or drink, and be filled.",
     vbtSno: 52,
+    nadi: "Sushumna",
     raga: "Raga vakulabharanam",
     song: ["https://youtu.be/V1tXJu-1O8U"],
     status: "Not Started Yet",
@@ -464,6 +516,7 @@ let tableDataAPI = [
     method:
       "Oh lotus-eyed one, sweet of touch, when singing, seeing, tasting, be aware you are and discover the ever-living.",
     vbtSno: 53,
+    nadi: "Pingala",
     raga: "Raga vakulabharanam",
     song: ["https://youtu.be/bbUnfeJhPKY"],
     status: "Not Started Yet",
@@ -472,6 +525,7 @@ let tableDataAPI = [
     tag: "Surya (S’)",
     method: "Wherever satisfaction is found, in whatever act, actualize this.",
     vbtSno: 54,
+    nadi: "Ida",
     raga: "Raga chakravakam",
     song: ["https://youtu.be/bdLn6CxaQ00"],
     status: "Not Started Yet",
@@ -481,6 +535,7 @@ let tableDataAPI = [
     method:
       "At the point of sleep, when the sleep has not yet come and external wakefulness vanishes, at this point being is revealed.",
     vbtSno: 55,
+    nadi: "Sushumna",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -490,6 +545,7 @@ let tableDataAPI = [
     method:
       "Illusions deceive, colors circumscribe, even divisibles are indivisible.",
     vbtSno: 56,
+    nadi: "Pingala",
     raga: "",
     song: ["https://youtu.be/w3IMkVKh5lU"],
     status: "Not Started Yet",
@@ -498,6 +554,7 @@ let tableDataAPI = [
     tag: "Maya (An’)",
     method: "In moods of extreme desire, be undisturbed.",
     vbtSno: 57,
+    nadi: "Ida",
     raga: "",
     song: ["https://youtu.be/tPc0o67I5_o"],
     status: "Not Started Yet",
@@ -507,6 +564,7 @@ let tableDataAPI = [
     method:
       "This so-called universe appears as a juggling, a picture show. To be happy look upon it so.",
     vbtSno: 58,
+    nadi: "Ida",
     raga: "",
     song: ["https://youtu.be/r-cAy0P6rTw"],
     status: "Not Started Yet",
@@ -516,6 +574,7 @@ let tableDataAPI = [
     method:
       "Oh beloved, put attention neither on pleasure nor on pain, but between these.",
     vbtSno: 59,
+    nadi: "Sushumna",
     raga: "",
     song: ["https://youtu.be/zHt2wqkTH64"],
     status: "Not Started Yet",
@@ -525,6 +584,7 @@ let tableDataAPI = [
     method:
       "Objects and desires exist in me as in others. So accepting, let them be transformed.",
     vbtSno: 60,
+    nadi: "Pingala",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -534,6 +594,7 @@ let tableDataAPI = [
     method:
       "As waves come with water and flames with fire, so the universal waves with us.",
     vbtSno: 61,
+    nadi: "Pingala",
     raga: "",
     song: ["https://youtu.be/9UDkYz64ehA?si=Bvbl6MB9PtqJnUhF"],
     status: "Not Started Yet",
@@ -543,6 +604,7 @@ let tableDataAPI = [
     method:
       "Wherever your mind is wandering, internally or externally, at this very place, this.",
     vbtSno: 62,
+    nadi: "Ida",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -552,6 +614,7 @@ let tableDataAPI = [
     method:
       "When vividly aware through some particular sense, keep in the awareness.",
     vbtSno: 63,
+    nadi: "Sushumna",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -561,6 +624,7 @@ let tableDataAPI = [
     method:
       "At the start of sneezing, during fright, in anxiety, above a chasm, flying in battle, in extreme curiosity, at the beginning of hunger, at the end of hunger, be uninterruptedly aware.",
     vbtSno: 64,
+    nadi: "Sushumna",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -570,6 +634,7 @@ let tableDataAPI = [
     method:
       "The purity of other teachings is an impurity to us. In reality, know nothing as pure or impure.",
     vbtSno: 65,
+    nadi: "Pingala",
     raga: "",
     song: ["https://youtu.be/2HUw-FcZq5c"],
     status: "Not Started Yet",
@@ -579,6 +644,7 @@ let tableDataAPI = [
     method:
       "Be the unsame same to friend as to stranger, in honor and dishonor.",
     vbtSno: 66,
+    nadi: "Ida",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -588,6 +654,7 @@ let tableDataAPI = [
     method:
       "Here is the sphere of change, change, change. Through change consume change.",
     vbtSno: 67,
+    nadi: "Pingala",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -597,6 +664,7 @@ let tableDataAPI = [
     method:
       "As a hen mothers her chicks, mother particular knowings, particular doings, in reality.",
     vbtSno: 68,
+    nadi: "Ida",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -606,6 +674,7 @@ let tableDataAPI = [
     method:
       "Since, in truth, bondage and freedom are related, these words are only for those terrified with the universe. This universe is a reflection of minds. As you see many suns in the water from one sun, so see bondage and liberation.",
     vbtSno: 69,
+    nadi: "Sushumna",
     raga: "",
     song: ["https://youtu.be/d8apl5eKEsE?si=wezaHRCRoFFVwiNO"],
     status: "Not Started Yet",
@@ -615,6 +684,7 @@ let tableDataAPI = [
     method:
       "Consider your essence as light rays rising from center to center up the vertebrae, and so rises 'livingness' in you.",
     vbtSno: 70,
+    nadi: "Ida",
     raga: "",
     song: ["https://youtu.be/T1tiIuMXLRw?si=GzH3tP4_nuyby-qw"],
     status: "Not Started Yet",
@@ -623,6 +693,7 @@ let tableDataAPI = [
     tag: "Reality",
     method: "Or in the spaces between, feel this as lightning.",
     vbtSno: 71,
+    nadi: "Sushumna",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -631,6 +702,7 @@ let tableDataAPI = [
     tag: "Reality",
     method: "Feel the cosmos as a translucent ever-living presence.",
     vbtSno: 72,
+    nadi: "Pingala",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -640,6 +712,7 @@ let tableDataAPI = [
     method:
       "In summer when you see the entire sky endlessly clear, enter such clarity.",
     vbtSno: 73,
+    nadi: "Ida",
     raga: "",
     song: ["https://youtu.be/yw9xi1bb9YQ?si=vTFsSPS4v_Jgbqqk"],
     status: "Not Started Yet",
@@ -649,6 +722,7 @@ let tableDataAPI = [
     method:
       "Shakti, see all space as if already absorbed in your own head in the brilliance.",
     vbtSno: 74,
+    nadi: "Sushumna",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -657,6 +731,7 @@ let tableDataAPI = [
     tag: "Reality",
     method: "Waking, sleeping, dreaming, know you as light.",
     vbtSno: 75,
+    nadi: "Pingala",
     raga: "",
     song: ["https://youtu.be/dJON7OZYHcY?si=8HpnVPffJo-c0it1"],
     status: "Not Started Yet",
@@ -666,6 +741,7 @@ let tableDataAPI = [
     method:
       "In rain during a black night, enter that blackness as the form of forms.",
     vbtSno: 76,
+    nadi: "Ida",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -675,6 +751,7 @@ let tableDataAPI = [
     method:
       "When a moonless rainy night is not present close eyes and find blackness before you. Opening eyes, see blackness. So faults disappear forever.",
     vbtSno: 77,
+    nadi: "Sushumna",
     raga: "",
     song: ["https://youtu.be/5HVkHchhjQg"],
     status: "Not Started Yet",
@@ -683,6 +760,7 @@ let tableDataAPI = [
     tag: "Reality",
     method: "Wherever your attention alights, at this very point, experience.",
     vbtSno: 78,
+    nadi: "Pingala",
     raga: "",
     song: ["https://youtu.be/_Sbm7DSPddk"],
     status: "Not Started Yet",
@@ -692,6 +770,7 @@ let tableDataAPI = [
     method:
       "Focus on fire rising through your form from the toes up until the body burns to ashes but not you.",
     vbtSno: 79,
+    nadi: "Sushumna",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -701,6 +780,7 @@ let tableDataAPI = [
     method:
       "Meditate on the make-believe world as burning to ashes, and become being above human.",
     vbtSno: 80,
+    nadi: "Pingala",
     raga: "",
     song: [""],
     status: "Not Started Yet",
@@ -710,6 +790,7 @@ let tableDataAPI = [
     method:
       "As, subjectively, letter flow into words and words into sentences, and as, objectively, circles flow into worlds and worlds into principles, find at last these converging in your being.",
     vbtSno: 81,
+    nadi: "Ida",
     raga: "",
     song: ["https://youtu.be/6BmMBDpBPvw"],
     status: "Not Started Yet",
@@ -718,6 +799,7 @@ let tableDataAPI = [
     tag: "Mooladhara",
     method: "Feel: my thought, I-ness, internal organs – me.",
     vbtSno: 82,
+    nadi: "Pingala",
     raga: "",
     song: ["https://youtu.be/RFjJ-NUS0Ro?si=BwvFnb1ptG1h71t0"],
     status: "Not Started Yet",
@@ -727,6 +809,7 @@ let tableDataAPI = [
     method:
       "Before desire and before knowing, how can I say I am? Consider. Dissolve in the beauty.",
     vbtSno: 83,
+    nadi: "Ida",
     raga: "",
     song: ["https://youtu.be/AgX2II9si7w?si=Cgzj2u-scOQHp6SN"],
     status: "Not Started Yet",
@@ -736,6 +819,7 @@ let tableDataAPI = [
     method:
       "Toss attachment for body aside, realizing I am everywhere. One who is everywhere is joyous.",
     vbtSno: 84,
+    nadi: "Sushumna",
     raga: "",
     song: ["https://youtu.be/dTu5dTEzVM4?si=XTgbt21rjqzA93Kw"],
     status: "Not Started Yet",
@@ -744,6 +828,7 @@ let tableDataAPI = [
     tag: "Akasha (Ak)",
     method: "Thinking no thing will limited-self unlimit.",
     vbtSno: 85,
+    nadi: "Pingala",
     raga: "Raga shubhpanthuravali",
     song: ["https://youtu.be/TEzPn1U3aXY"],
     status: "Not Started Yet",
@@ -753,6 +838,7 @@ let tableDataAPI = [
     method:
       "Suppose you contemplate something beyond perception, beyond grasping, beyond not being – you.",
     vbtSno: 86,
+    nadi: "Ida",
     raga: "Raga sadhvidhamargini",
     song: ["https://youtu.be/9PKFZRmpz78"],
     status: "Not Started Yet",
@@ -762,6 +848,7 @@ let tableDataAPI = [
     method:
       "I am existing. This is mine. This is this. O beloved, even in such know illimitably.",
     vbtSno: 87,
+    nadi: "Sushumna",
     raga: "Raga suvarnangi",
     song: ["https://youtu.be/2NtW928CTqQ"],
     status: "Not Started Yet",
@@ -771,6 +858,7 @@ let tableDataAPI = [
     method:
       "Each thing is perceived through knowing. The self shines in space through knowing. Perceive one being as knower and known.",
     vbtSno: 88,
+    nadi: "Sushumna",
     raga: "Raga divyamani",
     song: ["https://youtu.be/KVCFLGPcLdk"],
     status: "Not Started Yet",
@@ -780,6 +868,7 @@ let tableDataAPI = [
     method:
       "Beloved, at this moment let mind, knowing, breath, form, be included.",
     vbtSno: 89,
+    nadi: "Pingala",
     raga: "Raga dhawalambari",
     song: ["https://youtu.be/6k6x0leui_c"],
     status: "Not Started Yet",
@@ -789,6 +878,7 @@ let tableDataAPI = [
     method:
       "Touching eyeballs as a feather, lightness between them opens into heart and there permeates the cosmos.",
     vbtSno: 90,
+    nadi: "Ida",
     raga: "Raga namanarayani",
     song: ["https://youtu.be/i2Yk861zcm0"],
     status: "Not Started Yet",
@@ -798,6 +888,7 @@ let tableDataAPI = [
     method:
       "Kind Devi, enter etheric presence pervading far above and below your form.",
     vbtSno: 91,
+    nadi: "Sushumna",
     raga: "Raga kamavardhini",
     song: ["https://youtu.be/Epbx-FWqDk4"],
     status: "Not Started Yet",
@@ -807,6 +898,7 @@ let tableDataAPI = [
     method:
       "Put mind-stuff in such inexpressible fineness above, below and in your heart.",
     vbtSno: 92,
+    nadi: "Pingala",
     raga: "Raag ramapriya",
     song: ["https://youtu.be/UMp-sO9YJug"],
     status: "Not Started Yet",
@@ -815,6 +907,7 @@ let tableDataAPI = [
     tag: "Akasha (Ak)",
     method: "Consider any area of your present form as limitlessly spacious.",
     vbtSno: 93,
+    nadi: "Ida",
     raga: "Raga gamanashrama",
     song: ["https://youtu.be/E4XAy2DmDvk"],
     status: "Not Started Yet",
@@ -824,6 +917,7 @@ let tableDataAPI = [
     method:
       "Feel your substance, bones, flesh, blood, saturated with the cosmic essence.",
     vbtSno: 94,
+    nadi: "Ida",
     raga: "Raga vishvambhari",
     song: ["https://youtu.be/7HxbGB0EKME"],
     status: "Not Started Yet",
@@ -833,6 +927,7 @@ let tableDataAPI = [
     method:
       "Feel the fine qualities of creativity permeating your breasts and assuming delicate configurations.",
     vbtSno: 95,
+    nadi: "Sushumna",
     raga: "Raga shyamalangi",
     song: ["https://youtu.be/fqYq_SSWTJs"],
     status: "Not Started Yet",
@@ -842,6 +937,7 @@ let tableDataAPI = [
     method:
       "Abide in some place endlessly spacious, clear of trees, hills, habitations. Thence comes the end of mind pressures.",
     vbtSno: 96,
+    nadi: "Pingala",
     raga: "Raga shanmukhpriya",
     song: ["https://youtu.be/spRQEectgB8"],
     status: "Not Started Yet",
@@ -850,6 +946,7 @@ let tableDataAPI = [
     tag: "Bindu",
     method: "Consider the plenum to be your own body of bliss.",
     vbtSno: 97,
+    nadi: "Pingala",
     raga: "Raga simhendra madhyamam",
     song: ["https://youtu.be/XWPOkxB65fA"],
     status: "Not Started Yet",
@@ -859,6 +956,7 @@ let tableDataAPI = [
     method:
       "In any easy position gradually pervade an area between the armpits into great peace.",
     vbtSno: 98,
+    nadi: "Ida",
     raga: "Raag hemavati",
     song: ["https://youtu.be/6KXOkvLS-zk"],
     status: "Not Started Yet",
@@ -867,6 +965,7 @@ let tableDataAPI = [
     tag: "Bindu",
     method: "Feel yourself as pervading all directions, far, near.",
     vbtSno: 99,
+    nadi: "Sushumna",
     raga: "Raga dharmavati",
     song: ["https://youtu.be/KEyr2mG-b0k"],
     status: "Not Started Yet",
@@ -876,6 +975,7 @@ let tableDataAPI = [
     method:
       "The appreciation of objects and subjects is the same for an enlightened as for an unenlightened person. The former has one greatness: he remains in the subjective mood, not lost in things.",
     vbtSno: 100,
+    nadi: "Sushumna",
     raga: "Raag neetimati",
     song: ["https://youtu.be/g6in1S2_vcE"],
     status: "Not Started Yet",
@@ -884,6 +984,7 @@ let tableDataAPI = [
     tag: "Bindu",
     method: "Believe omniscient, omnipotent, pervading.",
     vbtSno: 101,
+    nadi: "Pingala",
     raga: "Raga kantamani",
     song: ["https://youtu.be/fbGrOrnVCoU"],
     status: "Not Started Yet",
@@ -893,6 +994,7 @@ let tableDataAPI = [
     method:
       "Imagine spirit simultaneously within and around you until the entire universe spiritualizes.",
     vbtSno: 102,
+    nadi: "Ida",
     raga: "Raga rishabhapriya",
     song: ["https://youtu.be/3Tb0kkmPaGM"],
     status: "Not Started Yet",
@@ -902,6 +1004,7 @@ let tableDataAPI = [
     method:
       "With your entire consciousness in the very start of desire, of knowing, know.",
     vbtSno: 103,
+    nadi: "Pingala",
     raga: "Raga latangi",
     song: ["https://youtu.be/OekBrXX2l0Y"],
     status: "Not Started Yet",
@@ -911,6 +1014,7 @@ let tableDataAPI = [
     method:
       "O Shakti, each particular perception is limited, disappearing in omnipotence.",
     vbtSno: 104,
+    nadi: "Ida",
     raga: "Raga vachaspati",
     song: ["https://youtu.be/iS_0UN2OeN0"],
     status: "Not Started Yet",
@@ -920,6 +1024,7 @@ let tableDataAPI = [
     method:
       "In truth forms are inseparate. Inseparate are omnipresent being and your own form. Realize each as made of this consciousness.",
     vbtSno: 105,
+    nadi: "Sushumna",
     raga: "Raag kalyani",
     song: ["https://youtu.be/rFOhkGENh_8"],
     status: "Not Started Yet",
@@ -929,6 +1034,7 @@ let tableDataAPI = [
     method:
       "Feel the consciousness of each person as your own consciousness. So, leaving aside concern for self, become each being.",
     vbtSno: 106,
+    nadi: "Ida",
     raga: "Raga chitrambari",
     song: ["https://youtu.be/iWMtLtet5Yw"],
     status: "Not Started Yet",
@@ -937,6 +1043,7 @@ let tableDataAPI = [
     tag: "Bindu",
     method: "This consciousness exists as each being, and nothing else exists.",
     vbtSno: 107,
+    nadi: "Sushumna",
     raga: "Raga sucharita",
     song: ["https://youtu.be/4fvL6dlO_ts"],
     status: "Not Started Yet",
@@ -946,6 +1053,7 @@ let tableDataAPI = [
     method:
       "This consciousness is the spirit of guidance of each one. Be this one.",
     vbtSno: 108,
+    nadi: "Pingala",
     raga: "Raga jyotiswaroopini",
     song: ["https://youtu.be/lacf-Wa4o_A"],
     status: "Not Started Yet",
@@ -955,6 +1063,7 @@ let tableDataAPI = [
     method:
       "Suppose your passive form to be an empty room with walls of skin – empty.",
     vbtSno: 109,
+    nadi: "Pingala",
     raga: "Raga dhatu vardhini",
     song: ["https://youtu.be/tJelk4IT-TI"],
     status: "Not Started Yet",
@@ -964,6 +1073,7 @@ let tableDataAPI = [
     method:
       "O Gracious one, play. The universe is an empty shell wherein your mind frolics infinitely.",
     vbtSno: 110,
+    nadi: "Pingala",
     raga: "Raga nasika bhushini",
     song: ["https://youtu.be/sxX89FqY44c"],
     status: "Not Started Yet",
@@ -973,6 +1083,7 @@ let tableDataAPI = [
     method:
       "Sweet-hearted one, meditate on knowing and not-knowing, existing and not-existing. Then leave both aside that you may be.",
     vbtSno: 111,
+    nadi: "Ida",
     raga: "Raga kosalam",
     song: ["https://youtu.be/62jrmL30-RE"],
     status: "Not Started Yet",
@@ -981,6 +1092,7 @@ let tableDataAPI = [
     tag: "Bindu",
     method: "Enter space, supportless, eternal, still.",
     vbtSno: 112,
+    nadi: "Ida",
     raga: "Raga rasikapriya",
     song: ["https://youtu.be/iNn6Okrfv5M"],
     status: "Not Started Yet",
@@ -989,6 +1101,7 @@ let tableDataAPI = [
     tag: "Sahasrara",
     method: "No Method but your understanding might help.",
     vbtSno: 113,
+    nadi: "Sushumna",
     raga: "",
     song: ["https://youtu.be/NaWDhpG5FoQ?si=esraqY4kANlmvnVT"],
     status: "Not Started Yet",
@@ -997,15 +1110,15 @@ let tableDataAPI = [
     tag: "Sahasrara",
     method: "No Method but sheer Devotion and complete Surrender might help.",
     vbtSno: 114,
+    nadi: "Sushumna",
     raga: "",
     song: ["https://youtu.be/5qmyMmDcXtc?si=VK0rsKy9LwE3yK1J"],
     status: "Not Started Yet",
   },
 ];
 
-
 // Fetch and parse the table data from local storage
-let tableData = JSON.parse(localStorage.getItem('tableData')) || tableDataAPI;
+let tableData = JSON.parse(localStorage.getItem("tableData")) || tableDataAPI;
 
 const search = document.querySelector("input");
 const cardBody = document.querySelector(".cards-container");
@@ -1033,13 +1146,13 @@ search.addEventListener("input", function () {
 
 // 2.1 reset local storage database
 const resetbtn = false;
-function openResetModal(){
+function openResetModal() {
   const modalcontainer = document.querySelector(".modal-container");
   const backdrop = document.querySelector(".backdrop");
   modalcontainer.style.display = "block";
   backdrop.style.display = "block";
 }
-function closeResetModal(){
+function closeResetModal() {
   const modalcontainer = document.querySelector(".modal-container");
   const backdrop = document.querySelector(".backdrop");
   modalcontainer.style.display = "none";
@@ -1047,54 +1160,56 @@ function closeResetModal(){
 }
 // close modal when click on backdrop
 document.addEventListener("click", (event) => {
-    
   const backdrop = document.querySelector(".backdrop");
   if (event.target == backdrop) {
-    closeResetModal()
-  } 
+    closeResetModal();
+  }
 });
 
-
 function resetLocalStorage() {
-    const newData = localStorage.setItem('tableData', JSON.stringify(tableDataAPI));
-    let tableData = JSON.parse(localStorage.getItem('tableData')) || tableDataAPI;
-    renderTable(tableData);
+  const newData = localStorage.setItem(
+    "tableData",
+    JSON.stringify(tableDataAPI)
+  );
+  let tableData = JSON.parse(localStorage.getItem("tableData")) || tableDataAPI;
+  renderTable(tableData);
 
-    closeResetModal();
+  closeResetModal();
   // window.location.reload();
 }
 
-// 2.2 filter chakras button 
+// 2.2 filter chakras button
 
 const filterdropdown = document.getElementById("dropdown-filter-menu");
 function togglefilterDropdown() {
   filterdropdown.style.display = "block";
 }
 // Optional: Close filterdropdown if clicking outside
-  document.addEventListener("click", (event) => {
-    
-    const filterButton = document.querySelector(".filter-btn");
-    if (event.target !== filterButton) {
-      filterdropdown.style.display = "none";
-    } else togglefilterDropdown();
-  });
+document.addEventListener("click", (event) => {
+  const filterButton = document.querySelector(".filter-btn");
+  if (event.target !== filterButton) {
+    filterdropdown.style.display = "none";
+  } else togglefilterDropdown();
+});
 
-// 2.2 sort by button 
+// 2.2 sort by button
 
 const dropdown = document.getElementById("dropdown-menu");
 function toggleDropdown() {
   dropdown.style.display = "block";
 }
 // Optional: Close dropdown if clicking outside
-  document.addEventListener("click", (event) => {
-    
-    const sortButton = document.querySelector(".sort-btn");
-    if (event.target !== sortButton) {
-      dropdown.style.display = "none";
-    } else toggleDropdown();
-  });
+document.addEventListener("click", (event) => {
+  const sortButton = document.querySelector(".sort-btn");
+  if (event.target !== sortButton) {
+    dropdown.style.display = "none";
+  } else toggleDropdown();
+});
 
 //#main 3. Function to render cards dynamically
+{
+  /* <span class="chakra">${highlightMatch(row.tag, searchValue)}</span>   */
+}
 function renderTable(data, searchValue = "") {
   cardBody.innerHTML = ""; // Clear the card container
 
@@ -1102,25 +1217,55 @@ function renderTable(data, searchValue = "") {
     const card = document.createElement("div");
     card.classList.add("card");
 
+    // Determine background color based on nadi value
+    let chakraColor = "";
+    if (row.nadi === "Ida") {
+      chakraColor = "#95dfe9f5";
+    } else if (row.nadi === "Sushumna") {
+      chakraColor = "#ffffff";
+    } else if (row.nadi === "Pingala") {
+      chakraColor = "#f1bd08f5";
+    }
+
     card.innerHTML = `
         <div class="card-header" id="#card-header" >
           <h2>Method: ${highlightMatch(row.vbtSno, searchValue)}</h2>
-          <span class="chakra">${highlightMatch(row.tag, searchValue)}</span>
+          <span class="chakra" style="background-color: ${chakraColor};">${highlightMatch(
+      row.nadi,
+      searchValue
+    )}</span>
         </div>
         <div class="card-body">
-          <p><strong>Sutra:</strong> ${highlightMatch(row.method, searchValue)}</p>
+          <p><strong>Sutra:</strong> ${highlightMatch(
+            row.method,
+            searchValue
+          )}</p>
           <p><strong>Raaga Name:</strong> 
-            <a href="http://www.youtube.com/results?search_query=${row.raga}" target="_blank" class="listen-link">
+            <a href="http://www.youtube.com/results?search_query=${
+              row.raga
+            }" target="_blank" class="listen-link">
               ${highlightMatch(row.raga, searchValue)}
             </a>
           </p>
         </div>
         <div class="card-footer">
-          <a href="${row.song}" target="_blank" class="listen-link">Listen to Song</a>
-          <select class="status-${row.status.toLowerCase().replace(/ /g, "-")}" onchange="updateStatus(this)" data-row="${row.vbtSno -1}" >
-            <option value="Completed" ${row.status === "Completed" ? "selected" : ""}>Completed</option>
-            <option value="In Progress" ${row.status === "In Progress" ? "selected" : ""}>In Progress</option>
-            <option value="Not Started Yet" ${row.status === "Not Started Yet" ? "selected" : ""}>Not Started</option>
+          <a href="${
+            row.song
+          }" target="_blank" class="listen-link">Listen to Song</a>
+          <select class="status-${row.status
+            .toLowerCase()
+            .replace(/ /g, "-")}" onchange="updateStatus(this)" data-row="${
+      row.vbtSno - 1
+    }" >
+            <option value="Completed" ${
+              row.status === "Completed" ? "selected" : ""
+            }>Completed</option>
+            <option value="In Progress" ${
+              row.status === "In Progress" ? "selected" : ""
+            }>In Progress</option>
+            <option value="Not Started Yet" ${
+              row.status === "Not Started Yet" ? "selected" : ""
+            }>Not Started</option>
           </select>
         </div>
       `;
@@ -1131,7 +1276,7 @@ function renderTable(data, searchValue = "") {
 
 //** Highlight matching search terms
 function highlightMatch(text, term) {
-  text = text ? text.toString() : '';
+  text = text ? text.toString() : "";
 
   if (!term) return text;
   const regex = new RegExp(`(${term})`, "gi");
@@ -1142,19 +1287,18 @@ function highlightMatch(text, term) {
 function updateStatus(selectElement) {
   const status = selectElement.value;
   // console.log(status);
-  
-  const rowIndex = selectElement.getAttribute('data-row');
+
+  const rowIndex = selectElement.getAttribute("data-row");
 
   // Update the card data array
   tableData[rowIndex].status = status;
   // console.log(rowIndex)
   // Save updated card data to local storage
-  localStorage.setItem('tableData', JSON.stringify(tableData));
-  
+  localStorage.setItem("tableData", JSON.stringify(tableData));
+
   // Update row class for styling
   selectElement.className = `status-${status.toLowerCase().replace(/ /g, "-")}`;
 }
-
 
 //** sortby function
 // Sort table data based on the selected attribute
@@ -1199,20 +1343,16 @@ function sortBy(attribute) {
   // Re-render the table with sorted data
   renderTable(tableData);
   const dropdown = document.getElementById("dropdown-menu");
-      dropdown.style.display = "none";
+  dropdown.style.display = "none";
 }
 
-
-
-
-
-function filterBy(chakra){
-  if (chakra == 'All') {
-    return renderTable(tableData)
-    }
-    filteredtableData = tableData.filter((item,index)=>item.tag == chakra)
-    renderTable(filteredtableData)
-    // Save updated table data to local storage
- 
-    // localStorage.setItem('filteredtableData', JSON.stringify(tableData));
+function filterBy(chakra) {
+  if (chakra == "All") {
+    return renderTable(tableData);
   }
+  filteredtableData = tableData.filter((item, index) => item.nadi == chakra);
+  renderTable(filteredtableData);
+  // Save updated table data to local storage
+
+  // localStorage.setItem('filteredtableData', JSON.stringify(tableData));
+}

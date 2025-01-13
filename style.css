@@ -1,16 +1,16 @@
 /* General Reset */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color: #333;
-    background: url(images/dhyanlinga_bg.webp) center / cover no-repeat;
-    color: #333;
-    overflow-y: hidden;
-  }
-  
-  /* Header Styling */
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #333;
+  background: url(images/dhyanlinga_bg.webp) center / cover no-repeat;
+  color: #333;
+  overflow-y: hidden;
+}
+
+/* Header Styling */
 header {
   display: flex;
   justify-content: space-between;
@@ -21,55 +21,55 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
-  header{
+  header {
     flex-direction: column;
-  } 
+  }
 }
 @media only screen and (max-width: 470px) {
   .card-body p {
     font-size: small;
-  } 
+  }
 }
 @media only screen and (max-width: 420px) {
-  header{
+  header {
     flex-direction: column;
-  } 
-  header h1{
+  }
+  header h1 {
     font-size: 25px;
-  } 
+  }
   .sort-container {
-    padding: 0 10px !important; 
- }
- .card-header {
-  padding: 15px;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 10px;
-  border-radius: 1rem 1rem 0 0;
- }
- .card-body{
-  height: 12rem !important;
-}
- /* .card-body p{
+    padding: 0 10px !important;
+  }
+  .card-header {
+    padding: 15px;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    border-radius: 1rem 1rem 0 0;
+  }
+  .card-body {
+    height: 12rem !important;
+  }
+  /* .card-body p{
   font-size: 14px !important;
 } */
- .scroll{
-  max-height: 70vh !important;
- }
+  .scroll {
+    max-height: 70vh !important;
+  }
 }
 
 @media only screen and (max-width: 380px) {
-  .card-body p{
+  .card-body p {
     font-size: smaller !important;
   }
-  .card-body{
+  .card-body {
     height: 12.5rem !important;
   }
 }
 @media only screen and (max-width: 335px) {
-  .card-body{
+  .card-body {
     height: 13.25rem !important;
   }
 }
@@ -99,7 +99,7 @@ header h1 {
   background-color: #189ab4;
   border: none;
   padding: 10px 15px;
-  border-radius: 0 .5rem .5rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -112,7 +112,7 @@ header h1 {
   filter: brightness(0) invert(1);
 }
 
-.filter-section{
+.filter-section {
   background-color: #97979783;
   border-radius: 0.5rem;
 }
@@ -126,12 +126,12 @@ header h1 {
   border-bottom: 1px solid #e0e0e0;
 }
 
-.btn-img{
+.btn-img {
   color: #189ab4;
   width: 16px;
   height: 16px;
 }
-  
+
 .sort-filter button:hover {
   background-color: #9fc8f3;
 }
@@ -151,7 +151,7 @@ header h1 {
   justify-content: center;
   margin: 0.5rem 0;
   padding: 5px 5px;
-  gap:5px;
+  gap: 5px;
   font-size: 14px;
   font-weight: bold;
   color: #189ab4;
@@ -202,14 +202,13 @@ header h1 {
   border-bottom: none;
 }
 
-
 /* Dropdown Menu Styling */
 .dropdown-menu {
   position: absolute;
   top: 100%;
   right: 0;
   /* width: 25vw; */
-  width:auto;
+  width: auto;
   margin-top: 5px;
   padding: 0;
   list-style: none;
@@ -236,146 +235,145 @@ header h1 {
   border-bottom: none;
 }
 
-.asc{
+.asc {
   background-color: #e4d720;
 }
-  
-  /* Card Container */
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    max-height: 80%; 
-    padding: 0 10px  25px 10px;
-    margin: 0px 10px;
-    /* box-sizing: border-box; */
-  }
 
-  .cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    justify-content: center;
-  }
-  
-  .card {
-    background-color: hsla(0, 0%, 100%, 0.527);
-    border-radius: 1rem; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.2s ease-in-out;
-    padding: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    /* background-color: #fff; */
-  }
-  
-  
-  .card-header {
-    padding: 15px;
-    background-color: #ddeff580;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 1rem 1rem 0 0;
-  }
-  
-  .card-header h2 {
-    margin: 0;
-    font-size: 18px;
-    color: #444;
-  }
-  
-  .card-header .chakra {
-    font-size: 12px;
-    background-color: #e4d720;
-    padding: 5px 10px;
-    border-radius: 1rem;
-    text-transform: uppercase;
-    color: #333;
-  }
-  
-  .card-main-body {
-    background-color: #ffffff70;
-    border-radius: 0.4rem;
-  }
-  .card-body {
-    background-color: #ddeff580;
-    height: 10rem;
-  }
-  
-  .card-body p {
-    padding: 0.5rem;
-    margin: 10px 0;
-    font-size: 15px;
-    color: #222222;
-  }
-  
-  .card-footer {
-    padding: 15px;
-    background-color: #ddeff580;
-    border-top: 1px solid #e0e0e0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 0 0 1rem 1rem;
-  }
+/* Card Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-height: 80%;
+  padding: 0 10px 25px 10px;
+  margin: 0px 10px;
+  /* box-sizing: border-box; */
+}
 
-  .scroll {
-    width: 100%; /* Adjust to your layout needs */
-    max-height: 75vh; /* Limit the height to control the scroll area */
-    overflow-y: auto; /* Enable vertical scrolling */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-    border: 1px solid #ccc; 
-    
-    padding: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
-  }
-  .listen-link {
-    color: #007bff;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  .listen-link:hover {
-    text-decoration: underline;
-  }
-  
-  .status-not-started-yet {
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 0.5rem;
-    font-size: 14px;
-    cursor: pointer;
-    background-color: rgba(224, 12, 12, 0.75);
-  }
-  /* styling for status progress of user */
-  /* green when status completed */
-  .status-completed{
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 0.5rem;
-    font-size: 14px;
-    cursor: pointer;
-    background-color: rgba(5, 173, 5, 0.75);
-  }
-  /* yellow when status InProgress */
-  .status-in-progress{
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 0.5rem;
-    font-size: 14px;
-    cursor: pointer;
-    background-color: hsla(43, 74%, 49%, 0.75);
-  }
-  /* red when status not started */
-  /* .status-not-started-yet {
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: hsla(0, 0%, 100%, 0.527);
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease-in-out;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  /* background-color: #fff; */
+}
+
+.card-header {
+  padding: 15px;
+  background-color: #ddeff580;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #444;
+}
+
+.card-header .chakra {
+  font-size: 12px;
+  /* background-color: #e4d720; */
+  padding: 5px 10px;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.card-main-body {
+  background-color: #ffffff70;
+  border-radius: 0.4rem;
+}
+.card-body {
+  background-color: #ddeff580;
+  height: 10rem;
+}
+
+.card-body p {
+  padding: 0.5rem;
+  margin: 10px 0;
+  font-size: 15px;
+  color: #222222;
+}
+
+.card-footer {
+  padding: 15px;
+  background-color: #ddeff580;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.scroll {
+  width: 100%; /* Adjust to your layout needs */
+  max-height: 75vh; /* Limit the height to control the scroll area */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  border: 1px solid #ccc;
+
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+.listen-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.listen-link:hover {
+  text-decoration: underline;
+}
+
+.status-not-started-yet {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: rgba(224, 12, 12, 0.75);
+}
+/* styling for status progress of user */
+/* green when status completed */
+.status-completed {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: rgba(5, 173, 5, 0.75);
+}
+/* yellow when status InProgress */
+.status-in-progress {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: hsla(43, 74%, 49%, 0.75);
+}
+/* red when status not started */
+/* .status-not-started-yet {
     padding: 5px;
     border: 1px solid #ddd;
     border-radius: 0.5rem;
@@ -383,8 +381,7 @@ header h1 {
     cursor: pointer;
     background-color: rgba(224, 12, 12, 0.5);
   } */
-  
-  
+
 /* highlight search bar */
 
 .highlight {
@@ -394,37 +391,37 @@ header h1 {
   border-radius: 4px;
 }
 
-.modal-container{
+.modal-container {
   position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: none;
   z-index: 3;
 }
-.reset-modal{
+.reset-modal {
   display: flex;
   flex-direction: column;
   background-color: white;
   border-radius: 0.5rem;
 }
-.reset-modal p{
+.reset-modal p {
   text-align: center;
   padding: 0 20px;
 }
-.modal-header{
+.modal-header {
   background: #5988ee;
   border-radius: 0.5rem 0.5rem 0 0;
   height: 3rem;
   text-align: center;
 }
-.modal-footer{
+.modal-footer {
   display: flex;
   justify-content: center;
   gap: 1rem;
   padding: 0 0 5px 0;
 }
-.footer-btn{
+.footer-btn {
   width: 3rem;
 }
 
@@ -449,10 +446,9 @@ header h1 {
   background-color: #ffffff28; /* Scrollbar track color */
 }
 
-
-.backdrop{
+.backdrop {
   display: none;
-  position:fixed;
+  position: fixed;
   height: 100vh;
   width: 100vw;
   background-color: #767577e3;
